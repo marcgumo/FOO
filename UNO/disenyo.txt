@@ -1,0 +1,31 @@
+
+En el proyecto utilizaremos tres objetos diferentes que son el jugador, la baraja y la carta. Cada jugador estarà formado por su información personal, como el nombre, y la baraja con sus respectivas cartas. Al principio del programa preguntaremos por pantalla el número de jugadores. Inicializaremos una variable para cada jugador con el tipo de dato tjugador y pediremos por pantalla al usuario que nos indique el nombre. Seguidamente inicilizaremos una baraja con un número de cartas específico (DIM) y definiremos sus cartas aleatoriamente. Así definiremos las estructuras:
+
+
+typedef struct {
+	int num;
+	char color;
+}tcarta;
+
+typedef struct {
+	int ncartas;
+	tcarta cartas[DIM];
+}tbaraja;
+
+typedef struct {
+	char nombre[NOM];
+	tbaraja bar;
+}tjugador;
+
+typedef struct {
+	tjugador jugadores[10];
+	int njugadores;
+}tjugadores;
+
+typedef struct {
+	tjugadores participantes;
+	tbaraja mazoDesc;
+	tbaraja mazoEntr;
+	int turno;
+	int comprob;
+}tpartida;

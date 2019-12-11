@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>h/azar.h</itemPath>
+      <itemPath>h/cartas.h</itemPath>
+      <itemPath>h/colores.h</itemPath>
+      <itemPath>h/jugadores.h</itemPath>
+      <itemPath>h/partida.h</itemPath>
+      <itemPath>h/preguntas.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>h/azar.c</itemPath>
+      <itemPath>h/cartas.c</itemPath>
+      <itemPath>h/colores.c</itemPath>
+      <itemPath>h/jugadores.c</itemPath>
+      <itemPath>h/partida.c</itemPath>
+      <itemPath>h/preguntas.c</itemPath>
+      <itemPath>h/uno.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="h/azar.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="h/azar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="h/cartas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="h/cartas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="h/colores.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="h/colores.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="h/jugadores.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="h/jugadores.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="h/partida.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="h/partida.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="h/preguntas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="h/preguntas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="h/uno.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="h/azar.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="h/azar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="h/cartas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="h/cartas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="h/colores.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="h/colores.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="h/jugadores.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="h/jugadores.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="h/partida.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="h/partida.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="h/preguntas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="h/preguntas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="h/uno.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
